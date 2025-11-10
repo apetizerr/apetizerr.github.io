@@ -2,7 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: < 
+subtitle: < Bio/
+             ├─ Informagician
+             ├─ Softwarcerer
+             ├─ Computomancer
+             
 
 profile:
   align: right
