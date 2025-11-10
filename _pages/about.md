@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: < Bio/
+subtitle: Bio 
              ├─ Informagician
              ├─ Softwarcerer
              ├─ Computomancer
