@@ -14,8 +14,6 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="publications">
-
+move this comment in the < dive if you want bibliography to show make sure to include pub papers when this happens {# {% bibliography %} #}
 
 </div>
-
-# move this comment in the < dive if you want bibliography to show make sure to include pub papers when this happens {# {% bibliography %} #}
