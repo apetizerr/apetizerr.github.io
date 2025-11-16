@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Bio 
-             ├─ Informagician
+             ├─ Informage
              ├─ Softwarcerer
              ├─ Computomancer
              
