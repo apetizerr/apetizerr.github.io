@@ -15,6 +15,7 @@ nav_order: 2
 
 <div class="publications">
 
-{# {% bibliography %} #}
 
 </div>
+
+# move this comment in the < dive if you want bibliography to show make sure to include pub papers when this happens {# {% bibliography %} #}
