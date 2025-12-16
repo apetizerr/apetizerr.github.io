@@ -2,96 +2,94 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Kevin Kim
+    - name: Location
+      value: Los Angeles, CA
+    - name: Email
+      value: kevin@mignardise.xyz
+    - name: Phone
+      value: (213) 948-9714
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/kevin-kim-a237b1125/">linkedin.com/in/kevin-kim-a237b1125/</a>
+    - name: GitHub
+      value: <a href="https://github.com/apetizerr">github.com/apetizerr</a>
+
+- title: Technical Skills
+  type: list
+  contents:
+    - <u>Programming Languages:</u> Python, R, Rust, SQL, Bash, Groovy
+    - <u>Omics / NGS Analysis:</u> Bulk RNA-seq, ATAC-seq, scRNA-seq; QC, alignment/quantification, differential analysis, peak calling, enrichment/pathway analysis, single-cell clustering/annotation
+    - <u>Workflows & DevOps:</u> GitHub, Nextflow (nf-core), Docker/Apptainer, Unix/Linux
+    - <u>ML / Data / Visualization:</u> PyTorch, TensorFlow, Tableau, image analysis
+    - <u>Databases & Resources:</u> BLAST, IGV, UCSC Genome Browser, COSMIC, DepMap, BioPortal
+    - <u>Tools:</u> AlphaFold3, RFdiffusion, GO / GSEA, Amira, Imaris
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Bioinformatics
+      institution: Northeastern University, Boston, MA
+      year: Expected May 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - 'GPA: 3.90'
+    - title: Bachelor of Arts in Biochemistry
+      institution: Occidental College, Los Angeles, CA
+      year: May 2023
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Cryo-EM Data Analyst
+      institution: Massachusetts General Hospital, Harvard Medical School — Molecular Biology, Boston, MA
+      year: Sep 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Segmented 3D FIB-SEB image analysis in Imaris to characterize mitochondrial and lipid droplet spatial distributions using MATLAB.
+        - Reconstructed 250 Cryo-ET datasets with Amira 3D to reveal morphological differences during muscle cell differentiation.
+        - Quantified membrane morphology features in Unix/Linux environments, showing oxygen-dependent changes in inner and outer mitochondrial membrane distance with statistical support.
+    - title: Graduate Bioinformatician
+      institution: Massachusetts General Hospital, Harvard Medical School — Molecular Pathology, Boston, MA
+      year: Jun 2024 – May 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Deployed AI/ML pipelines to predict fusion protein folding for lung cancer studies in Unix/Linux environments.
+        - Authored technical documentation and Bash utilities to streamline complex command lines for bioinformatics Python programs.
+        - Analyzed 50 RNA-seq datasets from glioblastoma cell lines for biomarker discovery; performed statistical hypothesis testing on 50 gene effect scores and visualized results in R.
+    - title: BSL-2 Researcher
+      institution: Occidental College, Biology Department, Los Angeles, CA
+      year: Aug 2020 – May 2023
       description:
+        - Conducted experiments on inflammatory mechanisms in macrophage cultures infected with Group A Streptococcus, identifying secreted cytotoxic proteins.
+        - Harvested proteins for ELISA-based inflammation detection and performed Western Blot for protein identification to map immune response mechanisms.
+        - Presented semesterly research reports covering methodologies, analyses, and findings for peers, faculty, and students.
+    - title: Biology and Chemistry Instructor
+      institution: Cap Consulting Institute, Los Angeles, CA
+      year: Jun 2019 – Dec 2023
+      description:
+        - Tutored 20 high school students in SAT Math, AP Biology, AP Chemistry, and SAT writing, tracking progress in Excel and driving scores near perfection.
+        - Proctored mock SAT exams for 100+ students to tailor lesson plans to individual needs.
+        - Directed weekly personal statement workshops for 50+ students, achieving college admission for all participants.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Open Source Contributions
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: scikit-image
+      year: Ongoing
+      description:
+        - Documentation update for masked arrays.
+    - title: nf-core modules
+      year: Ongoing
+      description:
+        - Groovy test fixes, added GATK4 Mutect2 module support, and maintained deprecated getchromsizes handling.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Certifications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Caltech CTME Bootcamp Certification in AI & Machine Learning
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Lysosomal permeabilization by Group A Streptococcus…
+      institution: bioRxiv (preprint), doi:10.1101/2025.10.25.684498v1
+      year: 2025
+      description:
+        - Quezada, A.; Lord, K.; Alcantara, C.; Delahunty, C.; Kim, K.; Okamoto, O.; Yates, J. R. III; Okumura, C. Y. M.
