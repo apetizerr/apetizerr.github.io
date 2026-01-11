@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: Blog
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true
@@ -122,7 +122,19 @@ pagination:
 
     <li>
 
+{% assign show_thumbnail = false %}
 {% if post.thumbnail %}
+  {% if post.thumbnail contains '://' %}
+    {% assign show_thumbnail = true %}
+  {% else %}
+    {% capture thumbnail_exists %}{% file_exists {{ post.thumbnail }} %}{% endcapture %}
+    {% if thumbnail_exists == 'true' %}
+      {% assign show_thumbnail = true %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+{% if show_thumbnail %}
 
 <div class="row">
           <div class="col-sm-9">
@@ -174,7 +186,7 @@ pagination:
           {% endif %}
     </p>
 
-{% if post.thumbnail %}
+{% if show_thumbnail %}
 
 </div>
 

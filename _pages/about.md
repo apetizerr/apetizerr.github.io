@@ -10,7 +10,7 @@ subtitle: Bio
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: kevin.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p></p>
