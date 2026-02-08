@@ -29,11 +29,12 @@
       "position": "Cryo-EM Data Analyst",
       "location": "Boston, MA",
       "startDate": "2025-09-01",
-      "summary": "Segmented and reconstructed mitochondrial datasets to study morphology changes during muscle cell differentiation.",
+      "summary": "Developed scalable 3D FIB-SEM and Cryo-ET analysis workflows to quantify mitochondrial morphology under varying oxygen conditions.",
       "highlights": [
-        "Segmented 3D FIB-SEB images in Imaris/MATLAB to map mitochondrial and lipid droplet spatial distributions.",
-        "Reconstructed 250 Cryo-ET datasets with Amira 3D to quantify morphological differences.",
-        "Quantified membrane morphology features in Unix/Linux environments; demonstrated oxygen-dependent inner/outer membrane distance changes."
+        "Developed and executed scalable 3D FIB-SEM image analysis pipelines to quantify mitochondrial and lipid droplet spatial distributions.",
+        "Reconstructed 250+ Cryo-ET datasets with Amira 3D and ImageJ to generate reproducible morphological metric differences in muscle cell differentiation.",
+        "Implemented surface morphometric feature extraction workflows in Unix/Linux and quantified membrane distance visualized in Python with Docker/Apptainer images for reproducibility.",
+        "Quantified five features from 500+ images across hypoxic and anoxic conditions with group statistical comparison."
       ]
     },
     {
@@ -42,24 +43,24 @@
       "location": "Boston, MA",
       "startDate": "2024-06-01",
       "endDate": "2025-05-31",
-      "summary": "Built AI/ML pipelines and RNA-seq analyses for cancer biomarker discovery.",
+      "summary": "Applied AI/ML diffusion modeling and transcriptomic analyses for cancer biomarker confirmation.",
       "highlights": [
-        "Deployed AI/ML pipelines to predict fusion protein folding for lung cancer studies.",
-        "Authored Bash utilities and documentation to streamline bioinformatics Python workflows for lab members.",
-        "Analyzed 50 RNA-seq glioblastoma datasets; performed statistical testing on gene effect scores and visualized results in R."
+        "Applied AI/ML diffusion models to predict fusion protein folding for small cell lung cancer in a Unix/Linux environment.",
+        "Analyzed 50+ snRNA-seq TCGA perturbation datasets of glioblastoma cell lines for gene mutational biomarker confirmation.",
+        "Performed statistical modeling and FDR hypothesis testing for 50+ gene effect scores associated with bulk RNA-seq, visualized in R."
       ]
     },
     {
       "name": "Occidental College, Biology Department",
-      "position": "BSL-2 Researcher",
+      "position": "Research Fellow",
       "location": "Los Angeles, CA",
       "startDate": "2020-08-01",
       "endDate": "2023-05-31",
-      "summary": "Investigated inflammatory mechanisms in macrophage cultures infected with Group A Streptococcus.",
+      "summary": "Investigated inflammatory mechanisms in human macrophage cultures infected with Group A Streptococcus.",
       "highlights": [
-        "Identified secreted cytotoxic proteins driving inflammatory responses.",
-        "Harvested proteins for ELISA-based detection and performed Western Blot for protein identification.",
-        "Presented semesterly reports covering experimental design, analyses, and findings."
+        "Conducted experiments on increased inflammatory mechanisms in human macrophage cell cultures infected with Group A Streptococcus, resulting in identification of secreted cytotoxic proteins.",
+        "Harvested proteins to detect inflammation responses using ELISA and conducted protein identification via Western blot, contributing to immune response mechanism studies.",
+        "Executed mammalian cell culture for protein expression, followed by downstream protein extraction and analysis workflows."
       ]
     },
     {

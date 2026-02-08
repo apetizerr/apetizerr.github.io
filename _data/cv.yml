@@ -29,7 +29,7 @@
   contents:
     - title: Master of Science in Bioinformatics
       institution: Northeastern University, Boston, MA
-      year: Expected May 2026
+      year: Expected April 2026
       description:
         - 'GPA: 3.90'
     - title: Bachelor of Arts in Biochemistry
@@ -43,23 +43,24 @@
       institution: Massachusetts General Hospital, Harvard Medical School — Molecular Biology, Boston, MA
       year: Sep 2025 – Present
       description:
-        - Segmented 3D FIB-SEB image analysis in Imaris to characterize mitochondrial and lipid droplet spatial distributions using MATLAB.
-        - Reconstructed 250 Cryo-ET datasets with Amira 3D to reveal morphological differences during muscle cell differentiation.
-        - Quantified membrane morphology features in Unix/Linux environments, showing oxygen-dependent changes in inner and outer mitochondrial membrane distance with statistical support.
+        - Developed and executed scalable 3D FIB-SEM image analysis pipelines to quantify mitochondrial and lipid droplet spatial distributions.
+        - Reconstructed 250+ Cryo-ET datasets with Amira 3D and ImageJ to generate reproducible morphological metric differences in muscle cell differentiation.
+        - Implemented surface morphometric feature extraction workflows in Unix/Linux and quantified membrane distance visualized in Python with Docker/Apptainer images for reproducibility.
+        - Quantified five features from 500+ images across hypoxic and anoxic conditions with group statistical comparison.
     - title: Graduate Bioinformatician
       institution: Massachusetts General Hospital, Harvard Medical School — Molecular Pathology, Boston, MA
       year: Jun 2024 – May 2025
       description:
-        - Deployed AI/ML pipelines to predict fusion protein folding for lung cancer studies in Unix/Linux environments.
-        - Authored technical documentation and Bash utilities to streamline complex command lines for bioinformatics Python programs.
-        - Analyzed 50 RNA-seq datasets from glioblastoma cell lines for biomarker discovery; performed statistical hypothesis testing on 50 gene effect scores and visualized results in R.
-    - title: BSL-2 Researcher
+        - Applied AI/ML diffusion models to predict fusion protein folding for small cell lung cancer in a Unix/Linux environment.
+        - Analyzed 50+ snRNA-seq TCGA perturbation datasets of glioblastoma cell lines for gene mutational biomarker confirmation.
+        - Performed statistical modeling and FDR hypothesis testing for 50+ gene effect scores associated with bulk RNA-seq, visualized in R.
+    - title: Research Fellow
       institution: Occidental College, Biology Department, Los Angeles, CA
       year: Aug 2020 – May 2023
       description:
-        - Conducted experiments on inflammatory mechanisms in macrophage cultures infected with Group A Streptococcus, identifying secreted cytotoxic proteins.
-        - Harvested proteins for ELISA-based inflammation detection and performed Western Blot for protein identification to map immune response mechanisms.
-        - Presented semesterly research reports covering methodologies, analyses, and findings for peers, faculty, and students.
+        - Conducted experiments on increased inflammatory mechanisms in human macrophage cell cultures infected with Group A Streptococcus, resulting in identification of secreted cytotoxic proteins.
+        - Harvested proteins to detect inflammation responses using ELISA and conducted protein identification via Western blot, contributing to immune response mechanism studies.
+        - Executed mammalian cell culture for protein expression, followed by downstream protein extraction and analysis workflows.
     - title: Biology and Chemistry Instructor
       institution: Cap Consulting Institute, Los Angeles, CA
       year: Jun 2019 – Dec 2023
