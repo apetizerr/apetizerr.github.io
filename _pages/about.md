@@ -2,10 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Bio 
-             ├─ Informage
-             ├─ Softwarcerer
-             ├─ Computomancer
+subtitle: Biocomputomancer
              
 
 profile:
@@ -34,4 +31,4 @@ latest_posts:
 Currently I am working as a Cryo-EM Data Analyst at the Massachusetts General Hospital, Department of Molecular Biology uncovering mitochondrial morphology.
 
 
-With goals of advancing personalized medicine and cost-effective R&D, I'm on a forever learning journey of trying to harness the fields of data science, computer science, and informatics into the biological narrative. Sadly, I wasn't there for the development of life's molecular mechanisms so I have to put my due diligence to understand! Being a big proponent to reproduciblility, I spend my free time replicating published journals and open-source contribution. 
+With goals of advancing personalized medicine and cost-effective R&D, I'm on a forever learning journey of trying to harness the fields of data, computer, and informatics sciences into the biological narrative. Sadly, I didn't witness the development of life's molecular mechanisms so I have to put my due diligence to understand! Being a big proponent to reproduciblility, I spend my free time replicating published journals and open-source contribution. 
